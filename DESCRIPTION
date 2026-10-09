@@ -1,15 +1,14 @@
 Package: paqueteprueba
-Title: Paquete de Prueba para Aprender a Desarrollar Paquetes
+Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("Manuela", "Bulgubure", , "bulmanu@example.com", role = c("aut", "cre"))
-Description: paqueteprueba es un paquete de ejemplo desarrollado para
-    aprender a desarrollar paquetes de R. No esta pensado para ser instalado
-        y no garantizamos que funcione siempre. Esta en desarrollo. 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-URL: https://github.com/ManuelaBulgubure/paqueteprueba
-BugReports: https://github.com/ManuelaBulgubure/paqueteprueba/issues
+Depends: 
+    R (>= 3.5)
+LazyData: true
