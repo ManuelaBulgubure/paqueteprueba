@@ -6,8 +6,7 @@ Authors@R:
 Description: Este paquete fue creado como un ejercicio práctico para familiarizarse con 
         la estructura básica de un paquete de R, la organización de funciones,  
         la documentación con Roxygen2 y el flujo de trabajo en Git y GitHub.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
