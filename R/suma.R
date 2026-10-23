@@ -1,3 +1,9 @@
+#' Suma dos números
+#'
+#' @param x Un número (por defecto 2).
+#' @param y Un número (por defecto 4).
+#' @return La suma de x e y.
+#' @export
 suma <- function(x = 2, y = 4) {
  if (!is.numeric(x) || !is.numeric(y)) {
    cli::cli_abort(c(
