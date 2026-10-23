@@ -1,6 +1,6 @@
-# Suma
+# Suma dos números
 
-esta funcion suma dos numeros
+Suma dos números
 
 ## Usage
 
@@ -12,21 +12,12 @@ suma(x = 2, y = 4)
 
 - x:
 
-  numeros positivos para sumar
+  Un número (por defecto 2).
 
 - y:
 
-  numeros positivos para sumar
+  Un número (por defecto 4).
 
 ## Value
 
-vector con la suma de los numeros positivos
-
-## Examples
-
-``` r
-suma(3,5)
-#> [1] 8
-suma(28,78)
-#> [1] 106
-```
+La suma de x e y.
