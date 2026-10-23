@@ -7,5 +7,5 @@ test_that("La suma funciona", {
 
 
 test_that("No suma caracteres", {
-  expect_error(suma(a, b), "los valores deben ser numericos")
+  expect_error(suma("a", "b"), "los valores deben ser numericos")
 })
