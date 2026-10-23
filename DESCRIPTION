@@ -1,9 +1,11 @@
 Package: paqueteprueba
-Title: What the Package Does (One Line, Title Case)
+Title: Paquete de Prueba para Practicar Desarrollo en R
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Manuela", "Bulgubure", , "bulguburemanuela@gmail.com", role = c("aut", "cre"))
+Description: Este paquete fue creado como un ejercicio práctico para familiarizarse con 
+        la estructura básica de un paquete de R, la organización de funciones,  
+        la documentación con Roxygen2 y el flujo de trabajo en Git y GitHub.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Config/roxygen2/version: 8.1.1
@@ -17,3 +19,4 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 URL: https://manuelabulgubure.github.io/paqueteprueba/
+
