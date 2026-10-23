@@ -5,8 +5,8 @@
 # 4) Debe ser capaz de calcular mediante un vectror de numeros --> expect_equal()
 
 test_that("pulgadas_cm funciona correctamente", {
-  expect_error(pulgadas_a_centimetros(), "Debe fallar si no hay argumentos")
-  expect_error(pulgadas_a_centimetros("diez"), "Debe fallar si el argumento es un texto")
+  expect_error(pulgadas_a_centimetros(), info = "Debe fallar si no hay argumentos")
+  expect_error(pulgadas_a_centimetros("diez"), info = "Debe fallar si el argumento es un texto")
   expect_equal(pulgadas_a_centimetros(2.5), 6.35)
   expect_equal(pulgadas_a_centimetros(c(1, 5, 10)), c(2.54, 12.7, 25.4))
 })
